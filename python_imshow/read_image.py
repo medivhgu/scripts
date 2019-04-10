@@ -17,7 +17,7 @@ def read_image(image_path):
 
 
 if __name__ == '__main__':
-    image_path = "test.jpg"
+    image_path = "/home/medivhgu/workspace/walle/data/map_real/otis/otis_6.png";
     if (len(sys.argv) >= 2):
         image_path = int(sys.argv[1])
     read_image(image_path)
