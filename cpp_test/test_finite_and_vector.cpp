@@ -56,6 +56,11 @@ int main() {
     for(auto t : k2) std::cout << t << ' ';  std::cout << std::endl;
     
     std::cout << "front: " << k1.front() << ", back: " << k1.back() << std::endl;
+    k1.pop_back();
+    std::cout << "front: " << k1.front() << ", back: " << k1.back() << std::endl;
+
+    std::vector<int>().swap(k1);
+    std::cout << "k1.size(): " << k1.size() << std::endl;
 
     return 0;
 }
